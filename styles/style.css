@@ -38,9 +38,11 @@ button {
 .text h3 {
   background-color: white;
   color: #1c5380;
+  border-radius: 5px;
 }
 .white-back {
   background-color: white;
+  border-radius: 5px;
 }
 .bottom-badges {
   display: flex;
