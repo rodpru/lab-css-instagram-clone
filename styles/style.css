@@ -14,10 +14,10 @@ body {
   justify-content: center;
   flex-wrap: wrap;  
 }
-.phones {
+/* .phones {
   float: left;
   margin: 100px;
-}
+ */}
 .top-logo {
   display: flex;
   flex-direction: row;
@@ -29,31 +29,38 @@ body {
   justify-content: center;
 }
 .text {
-  position: absolute;
+/*   position: absolute;
   float: right;
-  margin-top: 200px;
+ */  margin-top: 200px;
   margin-right: 100px;
   background-color: grey;
   width: 400px;
   margin: auto;
   justify-items: center;
 }
-.blue-container {
+.teste {
   display: flex;
   flex-direction: row;
-  align-content: space-between;
+  margin-top: 100px;
+}
+.blue-container {
+  position: absolute;
+/*   display: flex;
+  flex-direction: row;
+ */  align-content: space-between;
   height: 300px;
   width: 100%;
   background-color: #1c5380;
+  z-index: -1;
 }
 
 ul{
   align-items: flex-end;
   list-style: none;
+  display: flex;
 }
 
 footer {
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
 }
